@@ -24,5 +24,12 @@ Metrics Required
 ### Churn Analysis Summary Dashboard
 ![Churn_Analysis_Summary_Dashboard](https://github.com/user-attachments/assets/4cde275e-3490-4076-bd28-266c62e51ff4)
 
+## Predict Customer Churn
+
+For predicting customer churn, used Machine Learning algorithm called RANDOM FOREST.
+
+### What is Random Forest?
+A random forest is a machine learning algorithm that consists of multiple decision trees. Each decision tree is trained on a random subset of the data and features. The final prediction is made by averaging the predictions (in regression tasks) or taking the majority vote (in classification tasks) from all the trees in the forest. This ensemble approach improves the accuracy and robustness of the model by reducing the risk of overfitting compared to using a single decision tree.
+
 ### Churn Prediction Dashboard
 ![Churn_Prediction_Dashboard](https://github.com/user-attachments/assets/10d4500f-5cae-43f5-9fbc-82f92dcd9eea)
