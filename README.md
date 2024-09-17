@@ -20,3 +20,6 @@ Metrics Required
     Total Customers
     Total Churn & Churn Rate
     New Joiners
+
+###Churn Analysis Summary Dashboard
+![Churn_Analysis_Summary_Dashboard](https://github.com/user-attachments/assets/4cde275e-3490-4076-bd28-266c62e51ff4)
