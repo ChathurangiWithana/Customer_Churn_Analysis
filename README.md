@@ -23,3 +23,6 @@ Metrics Required
 
 ### Churn Analysis Summary Dashboard
 ![Churn_Analysis_Summary_Dashboard](https://github.com/user-attachments/assets/4cde275e-3490-4076-bd28-266c62e51ff4)
+
+### Churn Prediction Dashboard
+![Churn_Prediction_Dashboard](https://github.com/user-attachments/assets/10d4500f-5cae-43f5-9fbc-82f92dcd9eea)
