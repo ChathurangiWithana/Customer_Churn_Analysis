@@ -17,25 +17,6 @@
 
 The Customer Data csv file contains 6418 rows with 32 columns
 
-## Data Transformation
-### Data Cleaning:
-
-- Handling Null Values: The code uses the ISNULL function to replace null values with default values like "None" or "No" for certain columns. This ensures data consistency and avoids errors during analysis.
-
-Identifying Null Values                        |          Removing Null Values
-:---------------------------------------------:|:------------------------------------:
-  ![](Null_values.jpg)                         |            ![](remove_null.jpg)
-  
-### Data Type Conversion: 
-- The code potentially converts the Bit data type to Varchar(50) to address compatibility issues with the Import Wizard.
-
-### Data Validation:
-- The code likely sets a primary key (CustomerID) to prevent duplicate entries in the data.
-
-### Data Exploration:
-- The code uses SELECT, COUNT, and GROUP BY to explore the data and understand its characteristics.
-- This includes counting distinct values, checking for nulls, and calculating summary statistics.
-
 ## Skills Demonstrated
 
 The following SQL features were incorporated;
@@ -55,29 +36,53 @@ The following Power BI features were incorporated;
 - Filters
 - Tooltips
 - Button
+--- 
+## Data Transformation
+### Data Cleaning:
 
+- Handling Null Values: The code uses the ISNULL function to replace null values with default values like "None" or "No" for certain columns. This ensures data consistency and avoids errors during analysis.
 
+Identifying Null Values                        |          Removing Null Values
+:---------------------------------------------:|:------------------------------------:
+  ![](Null_values.jpg)                         |            ![](remove_null.jpg)
+  
+### Data Type Conversion: 
+- The code potentially converts the Bit data type to Varchar(50) to address compatibility issues with the Import Wizard.
 
+### Data Validation:
+- The code likely sets a primary key (CustomerID) to prevent duplicate entries in the data.
 
+### Data Exploration:
+- The code uses SELECT, COUNT, and GROUP BY to explore the data and understand its characteristics.
 
-## Project Target
+ ![](explore.jpg)
 
-Create an entire ETL process in a database & a Power BI dashboard to utilize the Customer Data and achieve below goals:
-        
-    Visualize & Analyse Customer Data at below levels
-    Demographic
-    Geographic
-    Payment & Account Info
-    Services
-    Study Churner Profile & Identify Areas for Implementing Marketing Campaigns
-    Identify a Method to Predict Future Churners
+### Create View for Power BI
+ ![](virtual_tables.jpg)
+--- 
+## Modelling
+
+Power BI automatically connected related tables resulting in a star schema model. 
+
+ ![](mapping.jpg)
+
+Create a Power BI dashboard to utilize the Customer Data and achieve below goals:
+- Visualize & Analyse Customer Data at below levels
+- Demographic
+- Geographic
+- Payment & Account Info
+- Services
+- Study Churner Profile & Identify Areas for Implementing Marketing Campaigns
+- Identify a Method to Predict Future Churners
  
 
 Metrics Required
 
-    Total Customers
-    Total Churn & Churn Rate
-    New Joiners
+- Total Customers
+- Total Churn & Churn Rate
+- New Joiners
+
+## Power BI Visualization
 
 ### Churn Analysis Summary Dashboard
 ![Churn_Analysis_Summary_Dashboard](https://github.com/user-attachments/assets/4cde275e-3490-4076-bd28-266c62e51ff4)
