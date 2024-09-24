@@ -18,9 +18,10 @@
 The Customer Data csv file contains 6418 rows with 32 columns
 
 ## Data Transformation
-Data Cleaning:
+### Data Cleaning:
 
 - Handling Null Values: The code uses the ISNULL function to replace null values with default values like "None" or "No" for certain columns. This ensures data consistency and avoids errors during analysis.
+---
   ![](Null_values.jpg)
   
 Data Type Conversion: The code potentially converts the Bit data type to Varchar(50) to address compatibility issues with the Import Wizard.
